@@ -10,7 +10,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="./type.js"></script>
 </head>
-
 <body>
     <div class="w-full z-50 top-0 py-3 sm:py-5 bg-yellow-500">
         <div class="container flex items-center justify-between">
@@ -79,19 +78,62 @@
             </div>
         </div>
     </div>
-    <section class="flex flex-col justify-center pt-3 ml-24 sm:flex-row sm:pt-5 lg:justify-start " style="flex-direction: column;">
-        
-        <p> Hello There </p>
-        <p> My name is </p>
-        <p> Fredrick Mwepu </p>
-        <p id="type"> 
-            And i am a 
-        </p>
-        <p> 
-            Lorem ipsum dolor sit amet, consectetur adipsicing elit.
-            Ut posuere eros justo, sed hendrerit lacus molestie id.
-            In varius risus eget lacus laoreet placerat.
-        </p>
+    <section class="flex pt-3 bg-black"
+        style="flex-direction: column;">
+        <div class="flex mt-16 ml-24">
+            <div>
+                <hr>
+                <p class="font-header font-semibold text-white">
+                    Hello There
+                </p>
+                <hr>
+                <p class="text-white"> My name is </p>
+                <p class="text-white"> Fredrick Mwepu </p>
+                <div>
+                    <p id="type" class="text-white">
+                        And i am a
+                    </p>
+                </div>
+                <!-- Generic Text -->
+                <div>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipsicing <br>
+                        elit. Ut posuere eros justo, sed hendrerit lacus molestie<br>
+                        id. In varius risus eget lacus laoreet placerat.
+                    </p>
+                </div>
+                <hr>
+                <!-- Social media Icons  -->
+                <div class="flex">
+                    <a href="#" class="mr-2">
+                        <img src="./Resources/icons/facebook.svg" alt="Facebook" class="w-24 h-auto">
+                    </a>
+                    <a href="#" class="mr-2">
+                        <img src="./Resources/icons/github.svg" alt="Github" class="w-24 h-auto">
+                    </a>
+                    <a href="#" class="mr-2">
+                        <img src="./Resources/icons/instagram.svg" alt="Instagram" class="w-24 h-auto">
+                    </a>
+                    <a href="#" class="mr-2">
+                        <img src="./Resources/icons/linkedin.svg" alt="LinkedIn" class="w-24 h-auto">
+                    </a>
+                    <a href="#" class="mr-2">
+                        <img src="./Resources/icons/youtube.svg" alt="Youtube" class="w-24 h-auto">
+                    </a>
+                </div>
+                <!-- Download Button -->
+                <div>
+                    <button type="button"
+                        class="inline-block rounded-full border-2 px-6 pb-[6px] pt-2 text-white font-medium uppercase leading-normal border border-white"
+                        data-twe-ripple-init>
+                        Download CV
+                    </button>
+                </div>
+            </div>
+            <div class="flex w-auto h-auto">
+                <img src="./Resources/Group 13.svg" alt="An Image of Fredrick Mwepu" />
+            </div>
+        </div>
     </section>
 </body>
 
