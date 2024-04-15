@@ -11,87 +11,86 @@
     <script defer src="./type.js"></script>
 </head>
 
-<body class="flex justify-center items-center h-screen bg-black"> 
-    <div class="flex">
-        <img src="/Resources/services pics/Recording a Phone Call on iPhone_ Tips & Apps for Call Recording — Reader’s Digest.jpeg" alt=" An illustrative image that shows the process of calling someone" />
-    </div>
-    <section class="flex flex-col justify-center items-center bg-yellow-500 p-10 rounded-lg">
-        <div class="flex">
-            <div>
-                <div class="flex justify-center mb-4">
-                    <p class="font-header font-bold text-4xl text-stone-950">
-                        3. Contact Me
-                    </p>
-                </div>
-                <div class="flex justify-center">
-                    <form class="w-full max-w-md">
-                        <div class="flex space-x-16 mb-4">
-                            <div>
-                                <label for="full_name" class="block mb-2 text-xl font-bold text-stone-950">
-                                    First name
-                                </label>
-                                <input type="text" id="first_name"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="John" required />
-                            </div>
-                            <div>
-                                <label for="last_name" class="block mb-2 text-xl font-bold text-stone-950">
-                                    Last name
-                                </label>
-                                <input type="text" id="last_name"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Doe" required />
-                            </div>
+<body class="flex ">
+    <section class="flex w-1/2 h-screen bg-yellow-500">
+        <img src="/Resources/services pics/contact_us.svg"
+            alt=" An illustrative image that shows the process of calling someone" />
+    </section>
+    <section class="flex justify-center w-1/2 h-screen items-center bg-yellow-500">
+        <div>
+            <div class="flex justify-center mb-4">
+                <p class="font-header font-bold text-4xl text-stone-950">
+                    3. Contact Me
+                </p>
+            </div>
+            <div class="flex justify-center">
+                <form class="w-full max-w-md">
+                    <div class="flex space-x-16 mb-4">
+                        <div>
+                            <label for="full_name" class="block mb-2 text-xl font-bold text-stone-950">
+                                First name
+                            </label>
+                            <input type="text" id="first_name"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="John" required />
                         </div>
-                        <div class="flex justify-between space-x-16">
-                            <div>
-                                <label for="phone" class="block mb-2 text-xl font-bold text-stone-950">
-                                    Phone number
-                                </label>
-                                <input type="tel" id="phone"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
-                            </div>
-                            <div class="mb-6">
-                                <label for="email" class="block mb-2 text-xl font-bold text-stone-950">
-                                    Email address
-                                </label>
-                                <input type="email" id="email"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="john.doe@company.com" required />
-                            </div>
+                        <div>
+                            <label for="last_name" class="block mb-2 text-xl font-bold text-stone-950">
+                                Last name
+                            </label>
+                            <input type="text" id="last_name"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Doe" required />
                         </div>
-                        <div class="">
-                            <div>
-                                <label for="message" class="block mb-2 text-xl font-bold text-stone-950">
-                                    Message
-                                </label>
-                                <input type="text" id="company"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Your Message" required />
-                            </div>
+                    </div>
+                    <div class="flex justify-between space-x-16">
+                        <div>
+                            <label for="phone" class="block mb-2 text-xl font-bold text-stone-950">
+                                Phone number
+                            </label>
+                            <input type="tel" id="phone"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
                         </div>
-                        <div class="flex items-start mt-6 mb-6">
-                            <div class="flex items-center h-5">
-                                <input id="remember" type="checkbox" value=""
-                                    class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
-                                    required />
-                            </div>
-                            <label for="remember" class="ms-2 text-xl font-medium text-stone-950">I
-                                agree
-                                with
-                                the <a href="#" class="text-gray-600 hover:underline dark:text-blue-500">terms and
-                                    conditions</a>.</label>
+                        <div class="mb-6">
+                            <label for="email" class="block mb-2 text-xl font-bold text-stone-950">
+                                Email address
+                            </label>
+                            <input type="email" id="email"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="john.doe@company.com" required />
                         </div>
-                        <div type="submit" class="card-actions justify-end">
-                            <button type="button"
-                                class="inline-block rounded-full border-2 px-6 pb-[6px] pt-2 text-stone-950 font-medium uppercase leading-normal border border-black"
-                                data-twe-ripple-init>
-                                GET IN TOUCH
-                            </button>
+                    </div>
+                    <div class="">
+                        <div>
+                            <label for="message" class="block mb-2 text-xl font-bold text-stone-950">
+                                Message
+                            </label>
+                            <input type="text" id="company"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-white dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Your Message" required />
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="flex items-start mt-6 mb-6">
+                        <div class="flex items-center h-5">
+                            <input id="remember" type="checkbox" value=""
+                                class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                                required />
+                        </div>
+                        <label for="remember" class="ms-2 text-xl font-medium text-stone-950">I
+                            agree
+                            with
+                            the <a href="#" class="text-gray-600 hover:underline dark:text-blue-500">terms and
+                                conditions</a>.</label>
+                    </div>
+                    <div type="submit" class="card-actions justify-end">
+                        <button type="button"
+                            class="inline-block rounded-full border-2 px-6 pb-[6px] pt-2 text-stone-950 font-medium uppercase leading-normal border border-black"
+                            data-twe-ripple-init>
+                            GET IN TOUCH
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
